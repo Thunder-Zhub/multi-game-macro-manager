@@ -1,0 +1,14 @@
+.gitignore
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+.vs/
+Debug/
+Release/
+*.vcxproj.user
+.DS_Store
+node_modules/
+package-lock.json

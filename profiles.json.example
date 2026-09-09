@@ -1,0 +1,38 @@
+{
+  "profiles": [
+    {
+      "name": "Minecraft",
+      "targetExeName": "javaw.exe",
+      "targetPID": 0,
+      "autoSwitch": true,
+      "enabled": true,
+      "bindings": [
+        {
+          "triggerType": "MOUSE",
+          "triggerCode": 5,
+          "actionType": 0,
+          "actionCode": 0,
+          "cps": 10
+        }
+      ]
+    },
+    {
+      "name": "Valorant",
+      "targetExeName": "VALORANT.exe",
+      "targetPID": 0,
+      "autoSwitch": true,
+      "enabled": false,
+      "bindings": [
+        {
+          "triggerType": "KEY",
+          "triggerCode": 123,
+          "actionType": 2,
+          "actionCode": 87,
+          "cps": 15
+        }
+      ]
+    }
+  ],
+  "globalEnabled": true,
+  "globalHotkey": 121
+}
